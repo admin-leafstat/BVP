@@ -1,3 +1,9 @@
+
+*.tmp
+*.new
+*.bak
+tmp/
+
 /blib/
 /.build/
 _build/
