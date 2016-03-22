@@ -8,10 +8,10 @@ my $eumm_version = $ExtUtils::MakeMaker::VERSION;
 $eumm_version =~ s/_//;
 
 WriteMakefile(
-    NAME                => 'Handicapping::Web',
+    NAME                => 'BVP',
     AUTHOR              => q{LeafStat <api@leafstat.com>},
-    VERSION_FROM        => 'lib/Handicapping/Web.pm',
-    ABSTRACT            => 'Basic Frontend to Handicapping Website',
+    VERSION_FROM        => 'lib/BVP.pm',
+    ABSTRACT            => 'Basic Frontend to BestVegasPicks.com Website',
     ($eumm_version >= 6.3001
       ? ('LICENSE'=> 'perl')
       : ()),

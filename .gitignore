@@ -1,8 +1,15 @@
 
+# Personal Savings
 *.tmp
 *.new
 *.bak
 tmp/
+
+# VIM
+*.swp
+
+# Mac Attack
+.DS_Store
 
 /blib/
 /.build/

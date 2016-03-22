@@ -1,12 +1,12 @@
 use strict;
 use warnings;
 
-use Handicapping::Web;
+use BVP;
 use Test::More tests => 2;
 use Plack::Test;
 use HTTP::Request::Common;
 
-my $app = Handicapping::Web->to_app;
+my $app = BVP->to_app;
 is( ref $app, 'CODE', 'Got app' );
 
 my $test = Plack::Test->create($app);

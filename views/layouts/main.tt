@@ -3,20 +3,28 @@
 <head>
   <meta charset="<% settings.charset %>">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>Handicapping</title>
-  <link rel="stylesheet" href="<% request.uri_base %>/css/style.css">
+  <title>Handicapping | BestVegasPicks</title>
 
-<!-- Grab jQuery from a CDN, fall back to local if necessary -->
-<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
-<script type="text/javascript">/* <![CDATA[ */
-    !window.jQuery && document.write('<script type="text/javascript" src="<% request.uri_base %>/javascripts/jquery.js"><\/script>')
-/* ]]> */</script>
+  <!-- Bootstrap core CSS -->
+  <link href="/css/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="/css/soon.css" rel="stylesheet">
+
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="/js/html5shiv.js"></script>
+      <script src="/js/respond.min.js"></script>
+  <![endif]-->
+
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic'
+        rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet'
+        type='text/css'>
 
 </head>
-<body>
-<% content %>
-<div id="footer">
-Powered by <a href="http://perldancer.org/">Dancer2</a> <% dancer_version %>
-</div>
+<body class="nomobile">
+[% content %]
 </body>
 </html>

@@ -7,6 +7,7 @@ Makefile$
 ^pm_to_blib
 ^.*.bak
 ^.*.old
+^.*.tmp
 ^t.*sessions
 ^cover_db
 ^.*\.log
@@ -14,4 +15,4 @@ Makefile$
 MYMETA.*
 ^.gitignore
 ^.svn\/
-^Handicapping-
+^BVP-

@@ -3,7 +3,7 @@
 # all the settings in this file will be loaded at Dancer's startup.
 
 # Your application's name
-appname: "Handicapping"
+appname: "BVP"
 
 # The default layout to use for your application (located in
 # views/layouts/main.tt)
@@ -18,9 +18,9 @@ charset: "UTF-8"
 # simple: default and very basic template engine
 # template_toolkit: TT
 
-template: "simple"
+#template: "simple"
 
-# template: "template_toolkit"
+template: "template_toolkit"
 # engines:
 #   template:
 #     template_toolkit:
